@@ -1,16 +1,54 @@
-# bmi_calculator
+# BMI Calculator
 
-A new Flutter project.
+A simple BMI (Body Mass Index) Calculator built using Flutter. This app calculates BMI based on user inputs and provides instant feedback with color-coded results.
 
-## Getting Started
+## Features
+- User-friendly interface for inputting height and weight.
+- Calculates BMI instantly.
+- Color-coded feedback:
+  - **Red** for Overweight
+  - **Green** for Normal weight
+  - **Yellow** for Underweight
+- Responsive and works on both Android and iOS.
 
-This project is a starting point for a Flutter application.
+## Deployment
+This application is deployed and accessible at:  
+[**bmicalculatorinflutter.netlify.app**](https://bmicalculatorinflutter.netlify.app)
 
-A few resources to get you started if this is your first Flutter project:
+## How to Run Locally
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/bmi-calculator.git
+   cd bmi-calculator
+   ```
+2. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+3. Run the app:
+   ```sh
+   flutter run
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
+for normal weight :- 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/user-attachments/assets/9f25f8eb-00df-4bec-892f-d0d9f062b2e8)
+
+for overweight :-
+
+![image](https://github.com/user-attachments/assets/6de60751-40a5-4f23-8591-9bc83dace92f)
+
+for underweight :-
+
+![image](https://github.com/user-attachments/assets/05520a00-40ad-44b9-9497-d39adf8401fb)
+
+
+
+
+## Technologies Used
+- **Flutter** for UI
+- **Dart** for logic
+
+## Contributing
+Feel free to fork the project and submit a pull request for improvements.
